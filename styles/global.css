@@ -53,10 +53,7 @@ input{
   }
 }
 
-
-
-
-
+/* shorty url css below */
 
 /* Skills */
 .skills-container {
@@ -130,89 +127,6 @@ input{
 .skills-container .grid-skills .azure:hover {
   background-color: #61DAFB;
 }
-
-
-.open-button{
-  background-color: green;
-  color: #1D1E20;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0 1rem;
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  transition: all 0.5s ease-in-out;
-
-}
-
-.stop-button{
-  background-color: salmon;
-  color: #1D1E20;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0 1rem;
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  transition: all 0.5s ease-in-out;
-
-}
-
-.restart-button{
-  background-color: yellow;
-  color: #1D1E20;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0 1rem;
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  transition: all 0.5s ease-in-out;
-
-}
-.refresh-button{
-  background-color: orange;
-  color: #1D1E20;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0 1rem;
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  transition: all 0.5s ease-in-out;
-
-}
-
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 1rem;
-}
-
-th, td {
-  padding: 0.5rem;
-  text-align: left;
-  border: 1px solid #ccc;
-}
-
-th {
-  font-weight: bold;
-  background-color: #007bff;
-}
-
-
-
-tr:hover {
-  background-color: grey;
-}
-
-
-/* shorty url css below */
 
 .input-url {
   background-color: white;
