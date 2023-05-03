@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #1D1E20;
+  color: #DADADB;
+  width: 900px;
+  margin: 0 auto;
+  padding: 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    padding: 0 2rem;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #DADADB;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+input{
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  hr {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+/* Skills */
+.skills-container {
+  padding: 2rem 0;
+}
+
+.skills-container h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.skills-container .grid-skills {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .skills-container .grid-skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.skills-container .grid-skills .skill-card {
+  background-color: #DADADB;
+  color: #1D1E20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-in-out;
+  cursor: context-menu;
+}
+
+.skills-container .grid-skills i {
+  font-size: 1.5rem;
+}
+
+.skills-container .grid-skills .docker:hover {
+  background-color: salmon;
+}
+
+.skills-container .grid-skills .database:hover {
+  background-color: salmon;
+}
+
+.skills-container .grid-skills .aws:hover {
+  background-color: yellow;
+}
+
+.skills-container .grid-skills .js:hover {
+  background-color: #F7DF1E;
+}
+
+.skills-container .grid-skills .react:hover {
+  background-color: #61DAFB;
+}
+
+.skills-container .grid-skills .node:hover {
+  background-color: #339933;
+}
+
+.skills-container .grid-skills .linux:hover {
+  background-color: #339933;
+}
+
+.skills-container .grid-skills .azure:hover {
+  background-color: #61DAFB;
+}
+
+
+.open-button{
+  background-color: green;
+  color: #1D1E20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-in-out;
+
+}
+
+.stop-button{
+  background-color: salmon;
+  color: #1D1E20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-in-out;
+
+}
+
+.restart-button{
+  background-color: yellow;
+  color: #1D1E20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-in-out;
+
+}
+.refresh-button{
+  background-color: orange;
+  color: #1D1E20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-in-out;
+
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+th, td {
+  padding: 0.5rem;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+th {
+  font-weight: bold;
+  background-color: #007bff;
+}
+
+
+
+tr:hover {
+  background-color: grey;
+}
+
+
+/* shorty url css below */
+
+.input-url {
+  background-color: white;
+  color: #1D1E20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-in-out;
+  width: 400px;
+  margin-top: 5px;
+}
+
+.input-url:hover {
+  transform: scale(1.05);
+}
+
+.input-url-submit {
+  background: linear-gradient(to right, #ff7f50, #ff4e00);
+  color: #1D1E20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-in-out;
+  margin-top: 8px;
+}
+
+.input-url-submit:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, #ff4e00, #ff7f50);
+}
+
+.short-url {
+  background: linear-gradient(to right, lightblue, blue);
+  color: #1D1E20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1rem;
+  padding: 1rem;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-in-out;
+  margin-top: 8px;
+}
+.short-url:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, lightblue, blue);
+  cursor: copy;
+}
+
+
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+
+.skill-card-loading{
+  background-color: lightblue;
+  color: #1D1E20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  animation: move-color 2s ease-in-out infinite;
+  opacity: 0.5;
+}
+
+
+@keyframes move-color {
+  0% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
